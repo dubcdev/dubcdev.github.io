@@ -1,0 +1,9 @@
+{
+ "ninja":     {"file":"2026-11-15-ninja-snake.mp4","lines":["NINJA SNAKE","on a rescue mission"]},
+ "chef":      {"file":"2026-11-16-chef-snake.mp4","lines":["CHEF SNAKE","no piglet left behind"]},
+ "golden":    {"file":"2026-11-17-golden-ducklings.mp4","lines":["GOLDEN DUCKLINGS","each one counts triple"]},
+ "astro":     {"file":"2026-11-18-astronaut-snake.mp4","lines":["ASTRONAUT SNAKE","4 critters, 1 trip home"]},
+ "pirate":    {"file":"2026-11-19-pirate-snake.mp4","lines":["PIRATE SNAKE","treasure? no. critters!"]},
+ "bigrescue": {"file":"2026-11-20-five-critters.mp4","lines":["5 LOST CRITTERS","can you bring them all home?"]},
+ "wizard":    {"file":"2026-11-21-wizard-snake.mp4","lines":["WIZARD SNAKE","a very cute rescue spell"]}
+}

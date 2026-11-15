@@ -1,0 +1,9 @@
+{
+ "ninja":  {"char":"ninja","seed":11,"nestMin":11,"critters":[{"type":"duck","dx":-2,"dr":3},{"type":"bunny","dx":2,"dr":6},{"type":"piglet","dx":0,"dr":9}]},
+ "chef":   {"char":"chef","seed":23,"nestMin":11,"critters":[{"type":"piglet","dx":2,"dr":3},{"type":"duck","dx":-1,"dr":6},{"type":"bunny","dx":2,"dr":9}]},
+ "astro":  {"char":"astro","seed":37,"nestMin":12,"critters":[{"type":"bunny","dx":-2,"dr":3},{"type":"duck","dx":2,"dr":5},{"type":"duck","dx":0,"dr":8},{"type":"piglet","dx":-2,"dr":10}]},
+ "pirate": {"char":"pirate","seed":41,"nestMin":11,"critters":[{"type":"duck","dx":3,"dr":3},{"type":"piglet","dx":-1,"dr":6},{"type":"bunny","dx":1,"dr":9}]},
+ "wizard": {"char":"wizard","seed":53,"nestMin":11,"critters":[{"type":"bunny","dx":0,"dr":3},{"type":"piglet","dx":-3,"dr":6},{"type":"duck","dx":1,"dr":9}]},
+ "golden": {"char":"cowboy","seed":67,"nestMin":11,"critters":[{"type":"gold","dx":-2,"dr":3},{"type":"gold","dx":2,"dr":6},{"type":"gold","dx":0,"dr":9}]},
+ "bigrescue": {"char":"cowboy","seed":79,"nestMin":13,"critters":[{"type":"duck","dx":-2,"dr":3},{"type":"bunny","dx":1,"dr":5},{"type":"piglet","dx":-1,"dr":7},{"type":"duck","dx":2,"dr":9},{"type":"bunny","dx":0,"dr":11}]}
+}
