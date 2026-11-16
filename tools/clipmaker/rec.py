@@ -22,10 +22,12 @@ async (cfg) => {
     row.rollers = null; row.pads = null; row.power = null; row.sticker = null; row.critters = [];
     for (let c = 0; c < row.cells.length; c++) row.cells[c] = 0;
   }
-  for (let r = nest; r < nest + 6; r++) if (rows[r]) { rows[r].sticker = null; rows[r].power = null; }
+  for (let r = nest; r < nest + 14; r++) if (rows[r]) { rows[r].sticker = null; rows[r].power = null; }
   const W = 12, wrap = x => ((x % W) + W) % W;
   const targets = cfg.critters.map((c, i) => ({ r: head.r + c.dr, c: wrap(head.x + c.dx), type: c.type }));
   for (const tg of targets) rows[tg.r].critters.push({ c: tg.c, type: tg.type, wob: Math.random() * 6 });
+  if (cfg.power) { const pw = cfg.power; const pr = head.r + pw.dr, pc = wrap(head.x + pw.dx); rows[pr].power = { c: pc, type: pw.type }; targets.unshift({ r: pr, c: pc, type: 'power' }); targets.sort((a, b) => a.r - b.r); }
+  if (cfg.offPath) for (const o of cfg.offPath) rows[head.r + o.dr].critters.push({ c: wrap(head.x + o.dx), type: o.type, wob: Math.random() * 6 });
   window.__recStart = true;
   await sleep(cfg.lead || 700);
   const hop = async (dx, dy) => { G.idle = 0; t.turn(dx, dy); await sleep(cfg.ms || 390); };
