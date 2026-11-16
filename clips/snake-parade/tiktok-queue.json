@@ -1,5 +1,5 @@
 {
- "note": "Daily clip queue for Snake Parade. TikTok: posted by the Daily social check at about 8:45 pm Pacific on each date. Instagram: Reels booked in Metricool unless \"instagram\": \"robot\"; \"story\": true adds an Instagram Story via the game-metrics Instagram robot. approved=true means Harj approved it.",
+ "note": "Daily clip queue for Snake Parade (approved=true means Harj approved it). TikTok: \"tiktok\":\"metricool\" = scheduled in Metricool (TikTok's web upload page cannot be fed files from Claude's tools, so Chrome posting does not work); \"tiktok\":\"manual\" = Harj posts from his phone. Instagram Reels: \"instagram\":\"metricool\" or \"robot\" (game-metrics Instagram robot). \"story\": true = the robot also posts it as a Story.",
  "items": [
   {
    "date": "2026-11-15",
@@ -9,7 +9,8 @@
    "approved": true,
    "approvedOn": "2026-11-14",
    "instagram": "metricool",
-   "story": true
+   "story": true,
+   "tiktok": "metricool"
   },
   {
    "date": "2026-11-16",
@@ -18,8 +19,9 @@
    "caption": "Chef Snake never leaves a piglet behind 🍳🐷 A cute snake game, free on iPhone: Snake Parade. #snakeparade #mobilegame #iphonegames #indiegame #cozygames",
    "approved": true,
    "approvedOn": "2026-11-14",
-   "instagram": "metricool",
-   "story": true
+   "instagram": "robot",
+   "story": true,
+   "tiktok": "metricool"
   },
   {
    "date": "2026-11-17",
@@ -28,8 +30,9 @@
    "caption": "Golden ducklings count triple ✨ grab them all and lead them home. A cute snake game, free on iPhone: Snake Parade. #snakeparade #mobilegame #iphonegames #indiegame #cozygames",
    "approved": true,
    "approvedOn": "2026-11-14",
-   "instagram": "metricool",
-   "story": true
+   "instagram": "robot",
+   "story": true,
+   "tiktok": "metricool"
   },
   {
    "date": "2026-11-18",
@@ -38,8 +41,9 @@
    "caption": "Astronaut Snake 🚀 4 critters, 1 trip home. A cute snake game, free on iPhone: Snake Parade. #snakeparade #mobilegame #iphonegames #indiegame #cozygames",
    "approved": true,
    "approvedOn": "2026-11-14",
-   "instagram": "metricool",
-   "story": true
+   "instagram": "robot",
+   "story": true,
+   "tiktok": "metricool"
   },
   {
    "date": "2026-11-19",
@@ -48,8 +52,9 @@
    "caption": "Pirate Snake found the real treasure 🏴‍☠️ the critters! A cute snake game, free on iPhone: Snake Parade. #snakeparade #mobilegame #iphonegames #indiegame #cozygames",
    "approved": true,
    "approvedOn": "2026-11-14",
-   "instagram": "metricool",
-   "story": true
+   "instagram": "robot",
+   "story": true,
+   "tiktok": "metricool"
   },
   {
    "date": "2026-11-20",
@@ -58,8 +63,9 @@
    "caption": "5 lost critters. Can you get them all home? 🏡 A cute snake game, free on iPhone: Snake Parade. #snakeparade #mobilegame #iphonegames #indiegame #cozygames",
    "approved": true,
    "approvedOn": "2026-11-14",
-   "instagram": "metricool",
-   "story": true
+   "instagram": "robot",
+   "story": true,
+   "tiktok": "metricool"
   },
   {
    "date": "2026-11-21",
@@ -68,8 +74,9 @@
    "caption": "Wizard Snake's cutest rescue spell 🪄 A cute snake game, free on iPhone: Snake Parade. #snakeparade #mobilegame #iphonegames #indiegame #cozygames",
    "approved": true,
    "approvedOn": "2026-11-14",
-   "instagram": "metricool",
-   "story": true
+   "instagram": "robot",
+   "story": true,
+   "tiktok": "metricool"
   }
  ]
 }
