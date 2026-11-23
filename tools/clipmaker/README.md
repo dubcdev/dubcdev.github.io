@@ -9,3 +9,5 @@ Makes 1080x1920 vertical clips from the real game (no people, gameplay only).
 5. Look at sample frames of every clip before using it.
 
 Paths in the scripts assume `/tmp/claude-0/clipwork` as `W`; edit BASE/OUT if different.
+
+Extra scene options in rec.py (added Nov 22, 2026): `nestAt` (put home exactly N rows ahead), `water` (rows that become a river with lily pads only on the snake's path; `extraPads` adds decoys), `hedges` (full hedge walls, for the Ghost power-up), `rollers` ([{dr, dir, spd, xs, spawn}]; `spawn: true` drops the roller in when the head enters the row, so it hits the parade, not the head), `sticker` ({dr, dx, ch, i}) and `ls` (extra saved-game values, e.g. 4 of 5 stickers to film an unlock). Example: scenes-2026-11-30.json / hooks-2026-11-30.json.

@@ -1,0 +1,361 @@
+{
+ "lastday": {
+  "char": "pirate",
+  "seed": 101,
+  "nestMin": 15,
+  "critters": [
+   {
+    "type": "duck",
+    "dx": -2,
+    "dr": 3
+   },
+   {
+    "type": "bunny",
+    "dx": 2,
+    "dr": 5
+   },
+   {
+    "type": "piglet",
+    "dx": -1,
+    "dr": 7
+   },
+   {
+    "type": "duck",
+    "dx": 2,
+    "dr": 9
+   },
+   {
+    "type": "bunny",
+    "dx": -2,
+    "dr": 11
+   },
+   {
+    "type": "piglet",
+    "dx": 1,
+    "dr": 13
+   }
+  ],
+  "nestAt": 15
+ },
+ "ghost": {
+  "char": "ninja",
+  "seed": 113,
+  "nestMin": 13,
+  "ms": 360,
+  "power": {
+   "type": "ghost",
+   "dx": 0,
+   "dr": 2
+  },
+  "hedges": [
+   4,
+   5,
+   7,
+   10
+  ],
+  "critters": [
+   {
+    "type": "duck",
+    "dx": 2,
+    "dr": 6
+   },
+   {
+    "type": "bunny",
+    "dx": -2,
+    "dr": 9
+   },
+   {
+    "type": "piglet",
+    "dx": 1,
+    "dr": 12
+   }
+  ]
+ },
+ "soup": {
+  "char": "chef",
+  "seed": 127,
+  "nestMin": 15,
+  "water": [
+   4,
+   8,
+   11
+  ],
+  "extraPads": [
+   -4,
+   3,
+   5
+  ],
+  "critters": [
+   {
+    "type": "piglet",
+    "dx": -1,
+    "dr": 2
+   },
+   {
+    "type": "duck",
+    "dx": 2,
+    "dr": 6
+   },
+   {
+    "type": "bunny",
+    "dx": -2,
+    "dr": 10
+   },
+   {
+    "type": "duck",
+    "dx": 1,
+    "dr": 13
+   }
+  ],
+  "nestAt": 15
+ },
+ "unlock": {
+  "char": "cowboy",
+  "seed": 131,
+  "nestMin": 13,
+  "tail": 2600,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef"
+  ],
+  "ls": {
+   "pieces": {
+    "astro": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "target": "astro"
+  },
+  "sticker": {
+   "ch": "astro",
+   "i": 4,
+   "dx": 1,
+   "dr": 8
+  },
+  "critters": [
+   {
+    "type": "duck",
+    "dx": -2,
+    "dr": 3
+   },
+   {
+    "type": "bunny",
+    "dx": 2,
+    "dr": 6
+   },
+   {
+    "type": "piglet",
+    "dx": -1,
+    "dr": 11
+   }
+  ]
+ },
+ "shield": {
+  "char": "astro",
+  "seed": 139,
+  "nestMin": 14,
+  "power": {
+   "type": "shield",
+   "dx": 0,
+   "dr": 2
+  },
+  "rollers": [
+   {
+    "dr": 10,
+    "dir": 1,
+    "spd": 5,
+    "xs": [
+     -4
+    ],
+    "spawn": true
+   },
+   {
+    "dr": 12,
+    "dir": -1,
+    "spd": 5,
+    "xs": [
+     4
+    ],
+    "spawn": true
+   }
+  ],
+  "critters": [
+   {
+    "type": "duck",
+    "dx": -2,
+    "dr": 4
+   },
+   {
+    "type": "bunny",
+    "dx": 2,
+    "dr": 6
+   },
+   {
+    "type": "piglet",
+    "dx": 0,
+    "dr": 8
+   }
+  ],
+  "nestAt": 14
+ },
+ "rc_cowboy": {
+  "char": "cowboy",
+  "seed": 150,
+  "nestMin": 7,
+  "tail": 300,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef",
+   "astro",
+   "pirate",
+   "wizard"
+  ],
+  "critters": [
+   {
+    "type": "duck",
+    "dx": -1,
+    "dr": 2
+   },
+   {
+    "type": "bunny",
+    "dx": 1,
+    "dr": 4
+   }
+  ]
+ },
+ "rc_ninja": {
+  "char": "ninja",
+  "seed": 151,
+  "nestMin": 7,
+  "tail": 300,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef",
+   "astro",
+   "pirate",
+   "wizard"
+  ],
+  "critters": [
+   {
+    "type": "bunny",
+    "dx": 1,
+    "dr": 2
+   },
+   {
+    "type": "piglet",
+    "dx": -1,
+    "dr": 4
+   }
+  ]
+ },
+ "rc_chef": {
+  "char": "chef",
+  "seed": 152,
+  "nestMin": 7,
+  "tail": 300,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef",
+   "astro",
+   "pirate",
+   "wizard"
+  ],
+  "critters": [
+   {
+    "type": "piglet",
+    "dx": -1,
+    "dr": 2
+   },
+   {
+    "type": "duck",
+    "dx": 1,
+    "dr": 4
+   }
+  ]
+ },
+ "rc_astro": {
+  "char": "astro",
+  "seed": 153,
+  "nestMin": 7,
+  "tail": 300,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef",
+   "astro",
+   "pirate",
+   "wizard"
+  ],
+  "critters": [
+   {
+    "type": "duck",
+    "dx": 1,
+    "dr": 2
+   },
+   {
+    "type": "bunny",
+    "dx": -1,
+    "dr": 4
+   }
+  ]
+ },
+ "rc_pirate": {
+  "char": "pirate",
+  "seed": 154,
+  "nestMin": 7,
+  "tail": 300,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef",
+   "astro",
+   "pirate",
+   "wizard"
+  ],
+  "critters": [
+   {
+    "type": "bunny",
+    "dx": -1,
+    "dr": 2
+   },
+   {
+    "type": "piglet",
+    "dx": 1,
+    "dr": 4
+   }
+  ]
+ },
+ "rc_wizard": {
+  "char": "wizard",
+  "seed": 155,
+  "nestMin": 7,
+  "tail": 300,
+  "owned": [
+   "cowboy",
+   "ninja",
+   "chef",
+   "astro",
+   "pirate",
+   "wizard"
+  ],
+  "critters": [
+   {
+    "type": "piglet",
+    "dx": 1,
+    "dr": 2
+   },
+   {
+    "type": "duck",
+    "dx": -1,
+    "dr": 4
+   }
+  ]
+ }
+}
